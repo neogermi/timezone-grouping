@@ -1,0 +1,17 @@
+{
+  "name": "tz-auto-grouping",
+  "version": "0.0.1",
+  "description": "Iterates over a list of given timezones and auto-groups them based on real dates (respecting DST).",
+  "main": "auto_group.js",
+  "dependencies": {
+    "lodash.orderby": "4.6.0",
+    "lodash.uniq": "4.5.0",
+    "moment": "2.29.1",
+    "moment-timezone": "^0.5.33"
+  },
+  "scripts": {
+    "start": "node auto_group",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Germesin (sebastian.germesin@gmail.com)"
+}
